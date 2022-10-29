@@ -7,7 +7,7 @@ pipeline {
               script {
                    checkout([$class: 'GitSCM',branches: [[name: '*/hazar']],
                       userRemoteConfigs: [[
-                        credentiasId: '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',
+                        credentiasId: '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',
                         url: 'https://github.com/hazar1997/CII.git']]]) 
                
             }
