@@ -1,11 +1,13 @@
 localhost ansible_connection=local
 
 [server]
-localhost
+localhost ansible_host=192.168.1.16
 
 [server:vars]
 
 ansible_python_interpreter= /usr/bin/python3
-ansible_user = jenkins
+ansible_user = admin
 ansible_become_pass= linux
+
+
 
