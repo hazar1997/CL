@@ -5,7 +5,7 @@ localhost
 
 [server:vars]
 
-ansible_python_interpreter= /usr/bin/python
-ansible_user =linux2
+ansible_python_interpreter= /usr/bin/python3
+ansible_user = jenkins
 ansible_become_pass= linux
 
